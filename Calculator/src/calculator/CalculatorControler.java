@@ -124,6 +124,7 @@ public class CalculatorControler {
 		public void actionPerformed(ActionEvent e) {
 			model.reset();
 			view.setUserInput("0");
+			view.setTotal("0");
 		}
 		
 	}
